@@ -33,6 +33,10 @@
    flex: 1;
 }
 
+.container {
+   padding: 50px 0
+}
+
 .row {
    width: 100%;
    max-width: 800px;
@@ -41,6 +45,14 @@
 
 .text--purple {
    color: #6030b1;
+}
+
+section:nth-child(even) {
+   background-color: #f8f8f8;
+}
+
+.section-title {
+   margin-bottom: 20px;
 }
 
    /* NAVIGATIO BAR */
@@ -147,6 +159,20 @@ padding-top: 8px;
 
 .about-me__img {
    width: 100%;
+}
+
+/* TECH - STACK */
+
+.language__img {
+   width: 100%;
+   max-width: 100px;
+}
+
+.language__img--wrapper {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 25%;
 }
  
 
