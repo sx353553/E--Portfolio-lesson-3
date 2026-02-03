@@ -130,6 +130,7 @@ nav {
 }
 .about-me__picture {
    width: 100%;
+   padding-bottom: 190px;
 
 /* Improving my picture */
 transform: scale(1.5);
@@ -168,11 +169,20 @@ padding-top: 8px;
    max-width: 100px;
 }
 
+.language {
+   width: 25%;
+}
+
 .language__img--wrapper {
    display: flex;
    justify-content: center;
    align-items: center;
    width: 25%;
+}
+
+language__list {
+   display: flex;
+   width: 100%;
 }
  
 
