@@ -212,7 +212,7 @@ padding-top: 8px;
    position: relative;
 }
 
-.project__wrapper:before {
+.project__wrappe:before {
    content: "";
    position: absolute;
    top: 0;
@@ -238,9 +238,8 @@ padding-top: 8px;
    padding-top: 40px;
 }
 
-.project__img--border {
-   border: 4px solid #6030b1;
-}
+
+
 
 
  
