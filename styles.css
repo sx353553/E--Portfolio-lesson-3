@@ -208,6 +208,7 @@ padding-top: 8px;
    box-shadow: 0 20px 80px rgba(0, 0, 0, 0.45);
    border-radius: 20px;
    overflow: hidden;
+   position: relative;
 }
 
 .project__wrapper:before {
@@ -218,7 +219,7 @@ padding-top: 8px;
    width: 100%;
    height: 100%;
    background-color: #1c1d25;
-   opacity: 0;;
+   opacity: 0;
    transition: opacity 450ms ease;
 }
 
