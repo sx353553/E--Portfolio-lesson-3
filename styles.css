@@ -238,8 +238,21 @@ padding-top: 8px;
    padding-top: 40px;
 }
 
+.project__description {
+   position: absolute;
+   top: 50%;
+   left: 90px;
+   transform; translateY(-50%);
+   max-width: 550px;
+}
 
-
+.project__describtion--title,
+.project__describtion--sub-title,
+.project__describtion--link,
+.project__describtion--para, {
+   text-align: :left
+   color: #white;
+}
 
 
 
