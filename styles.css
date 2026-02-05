@@ -212,7 +212,7 @@ padding-top: 8px;
    position: relative;
 }
 
-.project__wrappe:before {
+.project__wrapper:before {
    content: "";
    position: absolute;
    top: 0;
@@ -247,10 +247,10 @@ padding-top: 8px;
    z-index: 3;
 }
 
-.project__describtion--title,
-.project__describtion--sub-title,
-.project__describtion--link,
-.project__describtion--para {
+.project__description--title,
+.project__description--sub-title,
+.project__description--link,
+.project__description--para {
    text-align:left;
    color: white;
 }
